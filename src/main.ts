@@ -12,7 +12,7 @@ export class Game {
     constructor() {
         Game.instance = this
 
-        this.screen.loadImageList("/public/assets", "png", Array.from([
+        this.screen.loadImageList("/assets", "png", Array.from([
             "pan", "glue", "primer", 
             "pack-of-tiles", "water", "empty", 
             "tile-empty", "tile-glue", "tile-primer", 
