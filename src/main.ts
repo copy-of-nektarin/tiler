@@ -44,7 +44,7 @@ export class Game {
             this.level.render()
         } else {
             this.screen.setColor("black")
-            this.screen.fill(0, 0, this.screen.getWidth, this.screen.getHeight)
+            this.screen.fill(0, 0, this.screen.getWidth, this.screen.getHeight, true)
             this.screen.setColor("white")
             this.screen.print("LOADING", this.screen.getWidth / 2, this.screen.getHeight / 2, 24, "center", true)
         }

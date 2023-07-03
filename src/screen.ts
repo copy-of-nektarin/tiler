@@ -41,7 +41,7 @@ export class Screen {
         window.addEventListener("keydown", (event: KeyboardEvent) => this.keyList.set(event.key.toLowerCase(), true))
         window.addEventListener("keyup", (event: KeyboardEvent) => this.keyList.set(event.key.toLowerCase(), false))
 
-        window.addEventListener("click", () => this.isMouseClick = true)
+        window.addEventListener("click", () => this.isMouseClick = true)        
     }
 
     get getWidth(): number { return this.width }
